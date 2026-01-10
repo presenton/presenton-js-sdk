@@ -1,0 +1,61 @@
+{
+    "name": "presenton",
+    "version": "0.1.2",
+    "publishConfig": {
+        "access": "public"
+    },
+    "description": "Official Node.js/TypeScript SDK for the Presenton AI presentation generation API",
+    "type": "module",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "exports": {
+        ".": {
+            "import": "./dist/index.js",
+            "types": "./dist/index.d.ts"
+        }
+    },
+    "files": [
+        "dist",
+        "README.md",
+        "LICENSE"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "prepublishOnly": "npm run build",
+        "typecheck": "tsc --noEmit"
+    },
+    "keywords": [
+        "presenton",
+        "presentation",
+        "powerpoint",
+        "open source",
+        "open source ai presentation generator",
+        "pptx",
+        "pdf",
+        "slides",
+        "ai presentation generation",
+        "ai-presentation",
+        "presentation-generator",
+        "sdk",
+        "typescript",
+        "node"
+    ],
+    "author": "Presenton",
+    "license": "ISC",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/presenton/presenton"
+    },
+    "homepage": "https://docs.presenton.ai",
+    "bugs": {
+        "url": "https://github.com/presenton/presenton/issues"
+    },
+    "engines": {
+        "node": ">=18"
+    },
+    "devDependencies": {
+        "@types/node": "^20.10.0",
+        "tsx": "^4.7.0",
+        "typescript": "^5.3.3"
+    }
+}
