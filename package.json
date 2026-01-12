@@ -1,6 +1,6 @@
 {
     "name": "presenton",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "publishConfig": {
         "access": "public"
     },
@@ -41,7 +41,7 @@
         "node"
     ],
     "author": "Presenton",
-    "license": "ISC",
+    "license": "MIT",
     "repository": {
         "type": "git",
         "url": "https://github.com/presenton/presenton"
